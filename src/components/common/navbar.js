@@ -5,8 +5,10 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import { useNavigate } from "react-router-dom";
 
 export default function NavBar() {
+  const navigate=useNavigate()
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{ backgroundColor: "black", height: "2%" }}>
@@ -20,12 +22,15 @@ export default function NavBar() {
           <Typography
             variant="h6"
             component="div"
-            sx={{ fontFamily: "cursive", fontWeight: 800 }}
+            sx={{ fontFamily: "cursive", fontWeight: 800, cursor:'pointer' }}
+            onClick={()=>navigate('/editor')}
           >
             SQL Editor
           </Typography>
           <a
-            href="https://mail.google.com/mail/u/2/#inbox"
+            href="https://github.com/adarshpriyadarshii/sql-editor"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ color: "inherit" }}
           >
             <Button
