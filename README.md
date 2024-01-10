@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+### Overview
+1. A Code Editor with functionality of saving queries.
+2. A Output Tab to show corresponding table of provided query.
+3. A Saved Tab for all saved queries, functionality of deleting and reusing a saved query.
+4. Downloading the resultant table as CSV.
+5. Landing Page:
+   <img width="960" alt="image" src="https://github.com/adarshpriyadarshii/sql-editor/assets/76248609/e6690584-5be1-48cf-a7af-a9cff2eeffe3">
+6. Editor Page with a Toast message:
+   <img width="960" alt="image" src="https://github.com/adarshpriyadarshii/sql-editor/assets/76248609/b4125f1d-2b88-4e73-b2ab-961da0f8f5bc">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### JavaScript Framework and packages:
+1. React Js
+2. Material UI
+3. React-ace
+4. React-csv
+5. React-router-dom
+6. React-papaparse
+7. React-toastify
+
+### Performance
+Performance is measured on Lighthouse in Incognito Mode.
+<img width="960" alt="image" src="https://github.com/adarshpriyadarshii/sql-editor/assets/76248609/380ea1bf-7133-4a52-9837-568446bcdd78">
 
 ## Available Scripts
 
